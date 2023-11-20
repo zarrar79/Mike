@@ -28,6 +28,11 @@ body{
    background-size: cover;
    position: relative;
 }
+@media screen and (max-width:992px) {
+    .herosection{
+        background-size:contain;
+    }
+}
 .logo{
     margin-top: 13px;
 }
@@ -141,11 +146,22 @@ display: flex;
     bottom: 7vh;
     left: 23rem;
 }
+@media screen and (max-width:992px) {
+    .findget{
+        left: 15rem;
+        bottom: 30vh;
+    }
+}
 .dream{
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
     font-size: 56px;
     color: rgba(255, 255, 255, 1);
+}
+@media screen and (max-width:992px) {
+    .dream{
+        font-size: 48px;
+    }
 }
 .getbtn{
     display: flex;
@@ -163,10 +179,21 @@ display: flex;
     max-width: 120px;
     cursor: pointer;
 }
+@media screen and (max-width:992px) {
+    .get{
+        font-size: 15px;
+        padding:6px 14px 6px 14px;
+    }
+}
 .absolute{
     left: 1rem;
     bottom: 16.5vh;
     position: absolute;
+}
+@media screen and (max-width:992px) {
+    .absolute{
+        bottom: 27vh;
+    }
 }
 .clientpic{
     position: relative;
@@ -175,6 +202,11 @@ display: flex;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
+}
+@media screen and (max-width:992px) {
+    .clientpic img{
+       max-width: 110px;
+    }
 }
 .green{
     position: absolute;
