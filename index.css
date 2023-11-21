@@ -472,6 +472,62 @@ font-size: 12px;
  background-color: rgba(152, 0, 46, 1);
 }
 .twoimggrid{
+    margin-left: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.imgleft,.imgright{
+    position: relative;
+}
+.combuyguide{
+    position: absolute;
+    bottom: 4vh;
+    left: 11rem;
+}
+.buyerss{
+    color: rgba(255, 255, 255, 1);
+font-weight: 275;
+font-size: 72px;
+font-family: 'Poppins', sans-serif;
+}
+.btnguide{
+    display: flex;
+    justify-content: center;
+}
+.buyguide{
+    max-width: 9rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+    text-align: center;
+    background-color: rgba(248, 249, 250, 1);
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(152, 0, 46, 1);
+    border-radius: 50px;
+}
+.explore{
+    margin-top: 12vh;
+ display: flex;
+ justify-content: center;
+}
+.exptext{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 250;
+    font-size: 62px;
+    color: rgba(0, 0, 0, 1);
+}
+.wraplowup{
+    display: flex;
+    justify-content: center;
+}
+.lower{
+    margin-top: 3.5vh;
+    display: flex;
+}
+.lowsec{
+    margin-left: 2rem;
 }
