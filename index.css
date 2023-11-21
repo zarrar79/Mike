@@ -521,6 +521,7 @@ font-family: 'Poppins', sans-serif;
     color: rgba(0, 0, 0, 1);
 }
 .wraplowup{
+    margin-top: 8vh;
     display: flex;
     justify-content: center;
 }
@@ -530,4 +531,17 @@ font-family: 'Poppins', sans-serif;
 }
 .lowsec{
     margin-left: 2rem;
+}
+.topimg,.lowfirst,.lowsec{
+    position: relative;
+}
+.imageplay{
+    position: absolute;
+    bottom: 28vh;
+    left: 36rem;
+}
+.lfimage, .secimg{
+    bottom: 25.5vh;
+    position: absolute;
+    left: 16rem;
 }
