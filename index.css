@@ -58,8 +58,29 @@ display: flex;
         max-width: 90%;
     }
 }
+@media screen and (max-width:768px) {
+    .flexhead{
+        font-size: 13px;
+        max-width: 100%;
+    }
+}
 .flexhead img{
     margin-left: 3px;
+}
+@media screen and (max-width:600px) {
+    .flexhead{
+font-size: 12px;
+    }
+}
+@media screen and (max-width:768px) {
+    .flexhead img{
+        max-width: 160px;
+    }
+}
+@media screen and (max-width:600px) {
+    .flexhead img{
+        max-width: 127px;
+    }
 }
 .buy,.seller,.investor,.about,.agent,.property,.contact,.search{
     margin-top: 8px;
@@ -67,6 +88,29 @@ display: flex;
     display: flex;
     cursor: pointer;
 }
+@media screen and (max-width:768px) {
+    .buy img, .seller img, .investor img,.about img,.agent img,.property img{
+        margin-top: -2px;
+    }
+}
+@media screen and (max-width:600px) {
+    .buy img, .seller img, .investor img,.about img,.agent img,.property img{
+        margin-top: 0px;
+        max-width: 17px;
+    }
+    .buy,.seller,.investor,.about,.agent,.property,.contact,.search{
+        padding-left: 2px;
+    }
+    .property img{
+        width: 16px;
+    }
+}
+/* @media screen and (max-width:600px) {
+    .property img{
+        height: 27px;
+        margin-top: 1rem;
+    }
+} */
 .hamb img{
     display: none;
     width: 20px;
@@ -80,6 +124,17 @@ display: flex;
     }
     .hamb img{
         display: block;
+    }
+}
+@media screen and (max-width:768px) {
+    .hamb{
+        margin-left: 0rem;
+        margin-right: 2rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .hamb{
+        margin-right: 1rem;
     }
 }
 @media screen and (max-width:1200px) {
@@ -152,6 +207,18 @@ display: flex;
         bottom: 30vh;
     }
 }
+@media screen and (max-width:768px) {
+    .findget{
+        left: 9rem;
+        bottom: 54vh;
+    }
+}
+@media screen and (max-width:600px) {
+    .findget{
+        bottom: 64vh;
+        left: 8rem;
+    }
+}
 .dream{
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
@@ -161,6 +228,16 @@ display: flex;
 @media screen and (max-width:992px) {
     .dream{
         font-size: 48px;
+    }
+}
+@media screen and (max-width:768px) {
+    .dream{
+        font-size: 43px;
+    }
+}
+@media screen and (max-width:600px) {
+    .dream{
+        font-size: 32px;
     }
 }
 .getbtn{
@@ -185,6 +262,11 @@ display: flex;
         padding:6px 14px 6px 14px;
     }
 }
+@media screen and (max-width:600px) {
+    .get{
+        font-size: 11px;
+    }
+}
 .absolute{
     left: 1rem;
     bottom: 16.5vh;
@@ -197,6 +279,11 @@ display: flex;
 }
 .clientpic{
     position: relative;
+}
+@media screen and (max-width:600px) {
+    .clientpic{
+        display: none;
+    }
 }
 .clientpic img{
     border-top-left-radius: 100px;
@@ -233,4 +320,9 @@ display: flex;
     background-color: black;
     color:
     rgba(248, 249, 250, 1);
+}
+@media screen and (max-width:600px) {
+    .bar{
+        display: none;
+    }
 }
