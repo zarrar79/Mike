@@ -203,6 +203,11 @@ font-size: 12px;
     margin-top: 44vh;
     text-align: center;
 }
+@media screen and (max-width:1200px) {
+    .findget{
+        margin-top: 65vh;
+    }
+}
 @media screen and (max-width:992px) {
     .findget{
      margin-top: 34vh;
@@ -538,7 +543,7 @@ font-size: 12px;
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
-    height: 6vh;
+    /* height: 6vh; */
  font-family: 'Poppins', sans-serif;
  font-weight: 400;
  font-size: 20px;
@@ -612,15 +617,12 @@ font-family: 'Poppins', sans-serif;
 .wraplowup{
     margin-top: 8vh;
     display: flex;
-    /* justify-content: center;
-} */
-}
-@media screen and (max-width:1200px){
-       
+    justify-content: center;
 }
 .lower{
     margin-top: 3.5vh;
     display: flex;
+    justify-content: center;
 }
 .lowsec{
     margin-left: 2rem;
