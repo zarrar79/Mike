@@ -20,6 +20,10 @@ body{
     margin: 0;
     padding: 0;
 }
+.fluidcontainer{
+    max-width: 1400px;
+    margin: auto;
+}
 .herosection{
     background-image: url(../hero.png);
    max-width: 100%;
@@ -196,27 +200,22 @@ font-size: 12px;
     font-size: 14px;
 }
 .findget{
-    position: absolute;
+    margin-top: 44vh;
     text-align: center;
-    bottom: 7vh;
-    left: 23rem;
 }
 @media screen and (max-width:992px) {
     .findget{
-        left: 15rem;
-        bottom: 30vh;
+     margin-top: 34vh;
     }
 }
 @media screen and (max-width:768px) {
     .findget{
-        left: 9rem;
-        bottom: 54vh;
+        margin-top: 25vh;
     }
 }
 @media screen and (max-width:600px) {
     .findget{
-        bottom: 64vh;
-        left: 8rem;
+        margin-top: 19vh;
     }
 }
 .dream{
@@ -269,7 +268,7 @@ font-size: 12px;
 }
 .absolute{
     left: 1rem;
-    bottom: 16.5vh;
+    bottom: -8vh;
     position: absolute;
 }
 @media screen and (max-width:992px) {
@@ -333,11 +332,25 @@ font-size: 12px;
     display: flex;
     justify-content: space-around;
 }
+@media screen and (max-width:1200px) {
+    .flexwelcome{
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 13vh 0 0 0; 
+        padding: 0;
+    }
+}
 .imageleft{
     padding-top: 2vh;
 }
 .flexrwelcome{
     padding-left: 4rem;
+}
+@media screen and (max-width:1200px) {
+    .flexrwelcome{
+        margin-top: 12vh;
+        padding-left: 0rem;
+    }
 }
 .welcome{
     text-align: center;
@@ -358,25 +371,60 @@ font-size: 12px;
     color: 
     rgba(69, 69, 69, 1);;
 }
+.fgridflex{
+    margin-left: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width:1200px) {
+    .fgridflex{
+        display: block;
+    }
+}
 .flexgrid{
+    /* margin-right: 3rem; */
     margin-top: 12vh;
+    margin-left: 0rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 40px;
-    padding-left: 4rem;
-    padding-right: 3rem;
+    gap: 30px;
 }
-.pic0,.pic2,.pic3,.bigimg,.pic4{
+@media screen and (max-width:1200px) {
+    .flexgrid{
+       display: flex ;
+       justify-content: center;
+       margin: 12vh 0vh 0vh 0vh;
+       padding: 0;
+    }
+}
+.bigimg{
+    padding-right: 3rem;
+    margin-top: 12vh;
+}
+@media screen and (max-width:1200px) {
+    .bigimg{
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+        padding: 0;
+        position: relative;
+    }
+}
+/* .flexgrid2 .bigimg{
+    margin-top: 1vh;
+    padding-right: 0;
+} */
+.pic0,.pic2,.pic3,.pic4,.bigimg{
     position: relative;
 }
 .pic2{
- padding-top: 4vh;
+ padding-top: 3vh;
 }
 .pic4{
-    padding-top: 4vh;
+    padding-top: 3vh;
 }
 .commercial,.beach,.apartments,.residential,.investors{
     position: absolute;
@@ -389,6 +437,10 @@ font-size: 12px;
     bottom: 1vh;
     left: 3.5rem;
 }
+.commercial{
+    left: 2.5rem;
+    bottom: 1vh;
+}
 .beach{
     bottom: 1vh;
     left: 5rem;
@@ -396,6 +448,11 @@ font-size: 12px;
 .investors{
     bottom: 1.5vh;
     left: 17rem;
+}
+@media screen and (max-width:1200px) {
+    .bimg{
+        position: relative;
+    }
 }
 .specflex{
     margin-top: 5vh;
@@ -410,17 +467,36 @@ font-size: 12px;
     color: rgba(69, 69, 69, 1);
 
 }
+.fflexgrid2{
+    margin-left: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width:1200px) {
+    .fflexgrid2{
+        flex-wrap: wrap;
+    }
+}
+.fflexgrid2 .bigimg{
+  margin-top: 0vh;
+  margin-right: 0rem;
+  padding-right: 0rem;
+}
 .flexgrid2{
+    padding-right: 1rem;
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-columns:1fr 1fr;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 40px;
-    padding-left: 4rem;
-    padding-right: 3rem;
 }
-.flexgrid2 .investors{
+@media screen and (max-width:1200px) {
+    .flexgrid2{
+       margin-top: 11vh;
+    }
+}
+.fflexgrid2 .investors{
     left: 12rem;
 }
 .flexgrid2 .apartments{
@@ -430,7 +506,6 @@ font-size: 12px;
     left: 2rem;
 }
 .finchat{
-
     margin-top: 12vh;
   display: flex;
   justify-content: center;
@@ -470,14 +545,27 @@ font-size: 12px;
  color:
  rgba(255, 255, 255, 1);
  background-color: rgba(152, 0, 46, 1);
+ cursor: pointer;
 }
 .twoimggrid{
     margin-left: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+@media screen and (max-width:1200px) {
+    .twoimggrid{
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+    }
+}
 .imgleft,.imgright{
     position: relative;
+}
+@media screen and (max-width:1200px) {
+    .imgright{
+       margin-top: 7vh;
+    }
 }
 .combuyguide{
     position: absolute;
@@ -493,6 +581,7 @@ font-family: 'Poppins', sans-serif;
 .btnguide{
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 .buyguide{
     max-width: 9rem;
@@ -523,7 +612,11 @@ font-family: 'Poppins', sans-serif;
 .wraplowup{
     margin-top: 8vh;
     display: flex;
-    justify-content: center;
+    /* justify-content: center;
+} */
+}
+@media screen and (max-width:1200px){
+       
 }
 .lower{
     margin-top: 3.5vh;
@@ -537,11 +630,13 @@ font-family: 'Poppins', sans-serif;
 }
 .imageplay{
     position: absolute;
-    bottom: 28vh;
-    left: 36rem;
+    top: 50%;
+  left: 50%; 
+    transform: translate(-50%, -50%);
 }
 .lfimage, .secimg{
-    bottom: 25.5vh;
     position: absolute;
-    left: 16rem;
+    top: 50%;
+  left: 50%; 
+    transform: translate(-50%, -50%);
 }
