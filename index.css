@@ -516,6 +516,9 @@ body {
 .pic4 {
   padding-top: 3vh;
 }
+@media screen and (max-width:450px) {
+    
+}
 .commercial,
 .beach,
 .apartments,
@@ -533,24 +536,18 @@ body {
   bottom: 1vh;
   left: 3.5rem;
 }
+.commercial {
+    left: 2.5rem;
+    bottom: 1vh;
+  }
 @media screen and (max-width:450px) {
     .commercial,
-.beach,
-.apartments,
+.beach,.apartments,
 .residential,
 .investors{
     font-size: 19px;
     left: 10rem;
 }
-}
-.commercial {
-  left: 2.5rem;
-  bottom: 1vh;
-}
-@media screen and (max-width:450px) {
-    .commercial{
-        left: 10rem;
-    }
 }
 .beach {
   bottom: 1vh;
@@ -612,6 +609,15 @@ body {
     padding-left: 0rem;
   }
 }
+@media screen and (max-width:450px) {
+   .flexgrid2 .commercial{
+        left: 10rem;
+    }
+    .flexgrid2 .residential{
+        left: 6rem;
+    }
+    
+}
 .fflexgrid2 .bigimg {
   margin-top: 0vh;
   margin-right: 0rem;
@@ -645,11 +651,27 @@ body {
 .fflexgrid2 .investors {
   left: 12rem;
 }
-.flexgrid2 .apartments {
-  left: 11px;
+@media screen and (max-width:450px) {
+    .fflexgrid2 .investors{
+        left: 5.5rem;
+    }
 }
+.flexgrid2 .apartments {
+    left: 11px;
+}
+@media screen and (max-width:450px) {
+    .flexgrid2 .apartments{
+        left: 2rem;
+    }
+}
+
 .flexgrid2 .commercial {
   left: 2rem;
+}
+@media screen and (max-width:450px) {
+    .flexgrid2 .commercial{
+        left: 3rem;
+    }
 }
 .finchat {
   margin-top: 12vh;
