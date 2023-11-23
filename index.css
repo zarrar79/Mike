@@ -99,7 +99,7 @@ body {
   display: flex;
   cursor: pointer;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
   .buy img,
   .seller img,
   .investor img,
@@ -255,6 +255,11 @@ body {
   .findget {
     margin-top: 19vh;
   }
+}
+@media screen and (max-width:450px) {
+    .findget{
+        margin-top: 15vh;
+    }
 }
 .dream {
   font-family: "Poppins", sans-serif;
