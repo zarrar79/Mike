@@ -21,6 +21,7 @@ body{
     padding: 0;
 }
 .fluidcontainer{
+    max-width: 1400px;
     margin: auto;
 }
 .herosection{
@@ -422,6 +423,11 @@ font-size: 12px;
         position: relative;
     }
 }
+@media screen and (max-width:600px) {
+    .bigimg img{
+        max-width: 550px;
+    }
+}
 /* .flexgrid2 .bigimg{
     margin-top: 1vh;
     padding-right: 0;
@@ -514,6 +520,11 @@ font-size: 12px;
     .flexgrid2{
        margin-top: 8vh;
        gap: 40px;
+    }
+}
+@media screen and (max-width:600px) {
+    .flexgrid2{
+        padding-right: 0rem;
     }
 }
 .fflexgrid2 .investors{
@@ -690,6 +701,11 @@ font-family: 'Poppins', sans-serif;
 @media screen and (max-width:768px) {
     .topimg img{
         max-width: 768px;
+    }
+}
+@media screen and (max-width:600px) {
+    .topimg img{
+        max-width:600px;
     }
 }
 .lowfirst{
