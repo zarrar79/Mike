@@ -21,7 +21,6 @@ body{
     padding: 0;
 }
 .fluidcontainer{
-    max-width: 1400px;
     margin: auto;
 }
 .herosection{
@@ -31,11 +30,6 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
    position: relative;
-}
-@media screen and (max-width:992px) {
-    .herosection{
-        background-size:contain;
-    }
 }
 .logo{
     margin-top: 13px;
@@ -210,7 +204,7 @@ font-size: 12px;
 }
 @media screen and (max-width:992px) {
     .findget{
-     margin-top: 34vh;
+     margin-top: 80vh;
     }
 }
 @media screen and (max-width:768px) {
@@ -278,7 +272,7 @@ font-size: 12px;
 }
 @media screen and (max-width:992px) {
     .absolute{
-        bottom: 27vh;
+        bottom: -11vh;
     }
 }
 .clientpic{
@@ -345,6 +339,11 @@ font-size: 12px;
         padding: 0;
     }
 }
+@media screen and (max-width:992px) {
+    .flexwelcome{
+        margin-top: 9vh;
+    }
+}
 .imageleft{
     padding-top: 2vh;
 }
@@ -384,6 +383,11 @@ font-size: 12px;
 @media screen and (max-width:1200px) {
     .fgridflex{
         display: block;
+    }
+}
+@media screen and (max-width:768px) {
+    .fgridflex{
+        margin-left: 0rem;
     }
 }
 .flexgrid{
@@ -472,6 +476,11 @@ font-size: 12px;
     color: rgba(69, 69, 69, 1);
 
 }
+@media screen and (max-width:768px) {
+    .speciality{
+        text-align: center;
+    }
+}
 .fflexgrid2{
     padding-left: 2rem;
     display: flex;
@@ -480,6 +489,11 @@ font-size: 12px;
 @media screen and (max-width:1200px) {
     .fflexgrid2{
         flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:768px) {
+    .fflexgrid2{
+        padding-left: 0rem;
     }
 }
 .fflexgrid2 .bigimg{
@@ -518,6 +532,13 @@ font-size: 12px;
   margin-right: 8rem;
   margin-bottom: 12vh;
 }
+@media screen and (max-width:768px) {
+    .finchat{
+        margin-right: 0;
+        display: block;
+        text-align: center;
+    }
+}
 .finance{
     margin-left: 10rem;
     text-align: center;
@@ -525,6 +546,11 @@ font-size: 12px;
     font-weight:300;
     font-size: 32px;
     color:rgba(69, 69, 69, 1);
+}
+@media screen and (max-width:768px) {
+    .finance{
+        margin-left: 0rem;
+    }
 }
 .every{
     margin-left: 8rem;
@@ -534,6 +560,11 @@ font-size: 12px;
     font-weight:400;
     font-size:14px;
     color: rgba(69, 69, 69, 1);
+}
+@media screen and (max-width:768px) {
+    .every{
+        margin-left: 0rem;
+    }
 }
 .chat{
     height: 6vh;
@@ -553,6 +584,17 @@ font-size: 12px;
  background-color: rgba(152, 0, 46, 1);
  cursor: pointer;
 }
+@media screen and (max-width:992px) {
+    .chat{
+        height: 9vh;
+        margin-left: 3rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .chat{
+        margin-left: 0;
+    }
+}
 .twoimggrid{
     margin-left: 4rem;
     display: grid;
@@ -563,6 +605,11 @@ font-size: 12px;
          display: flex;
          justify-content: center;
          flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:768px) {
+    .twoimggrid{
+        margin-left: 0rem;
     }
 }
 .imgleft,.imgright{
@@ -615,6 +662,7 @@ font-family: 'Poppins', sans-serif;
     font-size: 62px;
     color: rgba(0, 0, 0, 1);
 }
+
 .wrap{
     margin-top: 8vh;
     display: grid;
@@ -626,11 +674,32 @@ font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-around;
 }
+@media screen and (max-width:992px) {
+     .lower{
+        display: block;
+     }
+}
 .topimg,.lowfirst,.lowsec{
     position: relative;
 }
+@media screen and (max-width:992px) {
+    .topimg img{
+        max-width: 992px;
+    }
+}
+@media screen and (max-width:768px) {
+    .topimg img{
+        max-width: 768px;
+    }
+}
 .lowfirst{
     padding-right: 2rem;
+}
+@media screen and (max-width:992px) {
+    .lowfirst{
+        padding-right: 0rem;
+        padding-bottom: 4vh;
+    }
 }
 .imageplay{
     position: absolute;
