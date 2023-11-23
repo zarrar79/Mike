@@ -473,7 +473,7 @@ font-size: 12px;
 
 }
 .fflexgrid2{
-    margin-left: 3rem;
+    padding-left: 2rem;
     display: flex;
     justify-content: space-around;
 }
@@ -494,11 +494,12 @@ font-size: 12px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 40px;
+    gap: 30px;
 }
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
     .flexgrid2{
-       margin-top: 11vh;
+       margin-top: 8vh;
+       gap: 40px;
     }
 }
 .fflexgrid2 .investors{
@@ -535,15 +536,15 @@ font-size: 12px;
     color: rgba(69, 69, 69, 1);
 }
 .chat{
+    height: 6vh;
     margin-top:6vh;
     margin-left: 8rem;
     border-radius: 50px;
     border: 1px rgba(152, 0, 46, 1) solid ;
-    padding: 5.5px;
+    padding: 0px;
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
-    /* height: 6vh; */
  font-family: 'Poppins', sans-serif;
  font-weight: 400;
  font-size: 20px;
@@ -614,21 +615,22 @@ font-family: 'Poppins', sans-serif;
     font-size: 62px;
     color: rgba(0, 0, 0, 1);
 }
-.wraplowup{
+.wrap{
     margin-top: 8vh;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
 }
 .lower{
     margin-top: 3.5vh;
     display: flex;
-    justify-content: center;
-}
-.lowsec{
-    margin-left: 2rem;
+    justify-content: space-around;
 }
 .topimg,.lowfirst,.lowsec{
     position: relative;
+}
+.lowfirst{
+    padding-right: 2rem;
 }
 .imageplay{
     position: absolute;
