@@ -209,7 +209,7 @@ font-size: 12px;
 }
 @media screen and (max-width:768px) {
     .findget{
-        margin-top: 25vh;
+        margin-top: 80vh;
     }
 }
 @media screen and (max-width:600px) {
