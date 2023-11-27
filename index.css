@@ -1062,8 +1062,10 @@ text-align: center;
   }
 }
 .boxflex{
+  margin-top: 12.5vh;
   font-family: 'Poppins','sans-serif';
   display: flex;
+  flex-wrap: wrap;
   justify-content:  center;
   text-align: center;
 }
@@ -1078,6 +1080,9 @@ text-align: center;
   width: 47%;
   background: linear-gradient(97.3deg, #231F20 0%, #3C3C3C 100%);
 
+}
+.b2r .learn button{
+  background: linear-gradient(97.3deg, #231F20 0%, #3C3C3C 100%);
 }
 .lorem{
   padding-top: 13vh;
