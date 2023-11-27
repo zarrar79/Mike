@@ -602,7 +602,7 @@ body {
 .fflexgrid2 {
   padding-left: 2rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 @media screen and (max-width: 1200px) {
   .fflexgrid2 {
@@ -625,7 +625,7 @@ body {
 }
 .fflexgrid2 .bigimg {
   margin-top: 0vh;
-  margin-right: 0rem;
+  margin-right: 2rem;
   padding-right: 0rem;
 }
 .flexgrid2 {
@@ -851,7 +851,7 @@ body {
 .lower {
   margin-top: 3.5vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 @media screen and (max-width: 992px) {
   .lower {
@@ -914,4 +914,89 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.mikeff{
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins',sans-serif;
+}
+.mikek{
+  text-align: center;
+  color: rgba(152, 0, 46, 1);
+  font-size: 102px;
+  font-weight: 500;
+}
+.newj{
+  text-align: center;
+  font-weight: 300;
+  font-size: 42px;
+  color:rgba(69, 69, 69, 1);
+}
+.gridtximg{
+  margin-top: 14vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (max-width:992px) {
+  .gridtximg{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+@media screen and (max-width:768px) {
+  .gridtximg{
+    justify-content: center;
+  }
+}
+.lefttx{
+  font-family: 'Poppins',sans-serif;
+}
+@media screen and (max-width:768px) {
+  .lefttx .lflex{
+    padding-right: 2rem;
+}
+}
+@media screen and (max-width:600px) {
+  .lefttx .lflex{
+    padding-right: 0rem;
+    padding-bottom: 3vh;
+  }
+}
+.ltxtb{
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+ color: rgba(152, 0, 46, 1);
+}
+.ltxt{
+  padding-top: 2vh;
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+}
+.ltximg{
+  text-align: center;
+}
+.lefttx .ltximg{
+  padding-top: 4vh;
+}
+@media screen and (max-width:768px) {
+ .midtx .lflex{
+    padding-right: 0rem;
+  }
+}
+.midtx .ltxtb{
+  padding-top: 3vh;
+}
+@media screen and (max-width:768px) {
+  .righttx{
+    margin-top: 7vh;
+  }
+  .righttx .lflex{
+    padding-right: 0rem;
+  }
 }
