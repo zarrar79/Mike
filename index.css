@@ -927,11 +927,21 @@ body {
   font-size: 102px;
   font-weight: 500;
 }
+@media screen and (max-width:768px) {
+  .mikek{
+      font-size: 50px;
+  }
+}
 .newj{
   text-align: center;
   font-weight: 300;
   font-size: 42px;
   color:rgba(69, 69, 69, 1);
+}
+@media screen and (max-width:768px) {
+  .newj{
+    font-size: 33px;
+  }
 }
 .gridtximg{
   margin-top: 14vh;
@@ -999,4 +1009,112 @@ body {
   .righttx .lflex{
     padding-right: 0rem;
   }
+}
+.tickflex{
+  margin-top: 11vh;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Poppins',sans-serif;
+  flex-wrap: wrap;
+}
+.tikimg{
+  text-align: center;
+}
+.liscence{
+text-align: center;
+  font-weight: 500;
+  font-size: 46px;
+  color: rgba(152, 0, 46, 1);
+}
+@media screen and (max-width:450px) {
+  .liscence{
+    font-size: 25px;
+  }
+}
+.twentyp{
+  margin-top: 1.5vh;
+  text-align: center;
+   font-weight :300;
+   font-size: 25px;
+   color: 
+   rgba(69, 69, 69, 1);
+}
+@media screen and (max-width:450px) {
+  .twentyp{
+    font-size: 17px;
+  }
+}
+.as{
+  margin-top: 1.5vh;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  color: rgba(69, 69, 69, 1);
+}
+@media screen and (max-width:450px) {
+  .as{
+     font-size: 13px;
+  }
+}
+@media screen and (max-width:992px) {
+  .shieldpara{
+   padding-top: 8vh;
+  }
+}
+.boxflex{
+  font-family: 'Poppins','sans-serif';
+  display: flex;
+  justify-content:  center;
+  text-align: center;
+}
+.b1l{
+  width: 47%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07)),
+  linear-gradient(97.3deg, #7A0025 0%, #AE002A 100%);
+  padding-bottom: 12vh;
+  ;
+}
+.b2r{
+  width: 47%;
+  background: linear-gradient(97.3deg, #231F20 0%, #3C3C3C 100%);
+
+}
+.lorem{
+  padding-top: 13vh;
+  font-weight: 300;
+  font-size: 20px;
+  color:
+  rgba(248, 249, 250, 1)
+  ;
+}
+.ips{
+  font-weight: 600;
+}
+.findb{
+  margin-top: 3.5vh;
+  color:
+  rgba(248, 249, 250, 1)
+  ;
+  font-weight: 300;
+  font-size: 56px;
+}
+.expl{
+  margin-top: 3.5vh;
+  font-weight: 300;
+  font-size: 20px;
+  color: rgba(248, 249, 250, 1);
+}
+.learnflex{
+  margin-top: 3.5vh;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+.learn button{
+  border-radius: 50px;
+  font-family: 'Poppins','sans-serif';
+  border: 1px white solid;
+  padding: 8px 16px 8px 16px;
+  background: linear-gradient(97.3deg, #7A0025 0%, #AE002A 100%);
+  color: rgba(248, 249, 250, 1);
 }
