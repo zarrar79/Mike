@@ -1069,6 +1069,11 @@ text-align: center;
   justify-content:  center;
   text-align: center;
 }
+@media screen and (max-width:992px) {
+  .boxflex{
+    display: block;
+  }
+}
 .b1l{
   width: 47%;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07)),
@@ -1092,8 +1097,18 @@ text-align: center;
   rgba(248, 249, 250, 1)
   ;
 }
+@media screen and (max-width:992px) {
+  .lorem{
+    font-size: 18px;
+  }
+}
 .ips{
   font-weight: 600;
+}
+@media screen and (max-width:992px) {
+  .ips{
+    font-weight: 500;
+  }
 }
 .findb{
   margin-top: 3.5vh;
@@ -1102,6 +1117,11 @@ text-align: center;
   ;
   font-weight: 300;
   font-size: 56px;
+}
+@media screen and (max-width:992px) {
+  .findb{
+    font-size: 40px;
+  }
 }
 .expl{
   margin-top: 3.5vh;
@@ -1122,4 +1142,10 @@ text-align: center;
   padding: 8px 16px 8px 16px;
   background: linear-gradient(97.3deg, #7A0025 0%, #AE002A 100%);
   color: rgba(248, 249, 250, 1);
+}
+@media screen and (max-width:992px) {
+  .bflex, .b2flex{
+    display: flex;
+    justify-content: center;
+  }
 }
