@@ -1400,8 +1400,8 @@ text-align: center;
   }
 }
 .bisiiflex{
-  max-width: 1100px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 .bisii{
   margin-top: 18vh;
@@ -1425,4 +1425,7 @@ text-align: center;
 }
 .interact,.monmo,.garden,.bright,.forms{
   margin-top: 3.5vh;
+}
+.sellerl,.Investor,.Information{
+     margin-left: 2rem;
 }
