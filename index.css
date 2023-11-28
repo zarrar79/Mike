@@ -1251,20 +1251,116 @@ text-align: center;
   font-size: 16px;
   color:rgba(69, 69, 69, 1);
 }
+.footbgflx{
+  max-width: 1300px;
+  margin: auto;
+}
+@media screen and (max-width:992px) {
+  .footbgflx{
+    max-width: 910px;
+  }
+}
+@media screen and (max-width:768px) {
+  .footbgflx{
+    max-width: 700px;
+  }
+}
+.fotbg{
+  background: linear-gradient(96.32deg, #810027 6.78%, #AD002A 100.01%);
+  padding-bottom: 12vh;
+
+}
 .textall{
+  margin-top: 18vh;
+   padding-top: 12vh;
+  text-align: center;
   font-family: 'Poppins',sans-serif;
 }
 .stay{
+  text-align: center;
   color: rgba(255, 255, 255, 1);
   font-weight: 600;
   font-size: 56px;
 }
+@media screen and (max-width:992px) {
+  .stay{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width:768px) {
+  .stay{
+    font-size: 28px;
+  }
+}
 .join{
+  margin-top: 3vh;
+  font-family: 'Poppins',sans-serif;
+  text-align: center;
   font-weight: 400;
   font-size: 28px;
   color:
   rgba(248, 249, 250, 1);
 }
+@media screen and (max-width:992px) {
+  .join{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:768px) {
+  .join{
+    font-size: 15px;
+  }
+}
 .month{
+  text-decoration: underline;
   font-weight: 600;
+}
+.inpfieldbt{
+  margin-top: 4.5vh;
+  display: flex;
+  justify-content: center;
+}
+.input input{
+  padding: 6px 10px 6px 25px;
+  border: 1px white solid;
+  border-radius: 100px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+   width: 340px;
+  color: rgba(108, 117, 125, 1);
+}
+@media screen and (max-width:992px) {
+  .input input{
+    width: 300px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:768px) {
+  .input input{
+    width: 250px;
+    font-size: 15px;
+  }
+}
+.inpfieldbt button{
+  cursor: pointer;
+  margin-left: 1rem;
+  padding: 5px 16px 5px 16px;
+  border-radius: 50px;
+  border: 1px white solid;
+ background-color: #AD002A;
+  color: rgba(248, 249, 250, 1);
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Poppins',sans-serif;
+}
+@media screen and (max-width:992px) {
+  .inpfieldbt button{
+      font-size: 15px;
+  }
+}
+@media screen and (max-width:768px) {
+  .inpfieldbt button{
+    font-size: 13px;
+  }
 }
