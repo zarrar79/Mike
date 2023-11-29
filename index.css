@@ -1102,8 +1102,8 @@ text-align: center;
 }
 @media screen and (max-width:450px) {
   .b2r{
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 }
 .b2r .learn button{
@@ -1161,7 +1161,7 @@ text-align: center;
 }
 @media screen and (max-width:450px) {
   .expl{
-    font-size: 13px;
+    font-size: 12.7px;
   }
 }
 .learnflex{
@@ -1551,6 +1551,13 @@ text-align: center;
 @media screen and (max-width:992px) {
   .textar textarea{
     font-size: 18px;
+  }
+}
+@media screen and (max-width:450px) {
+  .textar textarea{
+    font-size: 14px;
+    padding-bottom: 8px;
+    padding-right: 0rem;
   }
 }
 .btnpost{
