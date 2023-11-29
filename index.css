@@ -1718,3 +1718,36 @@ text-align: center;
 .iciinst,.icimgpint,.icimgtik,.icimgyout{
   padding-left: 2.5rem;
 }
+.las{
+  padding-top: 9vh;
+  padding-bottom: 9vh;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width:768px) {
+  .las{
+    display: block;
+    text-align: center;
+  }
+}
+.leftlas,.rightlas{
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 12.8px;
+  color: 
+  rgba(69, 69, 69, 1)
+  ;
+}
+.term,.site,.map{
+  padding-left: 13px;
+}
+.rightlas{
+  padding-left: 3.5rem;
+}
+@media screen and (max-width:768px) {
+  .rightlas{
+    padding-left: 0rem;
+  }
+}
