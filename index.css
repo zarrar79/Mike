@@ -1624,9 +1624,65 @@ text-align: center;
   padding-right: 3rem;
   padding-top: 9vh;
 }
+@media screen and (max-width:600px) {
+  .mikimg{
+    padding-right: 0rem;
+  }
+}
+@media screen and (max-width:450px) {
+  .mikimg img{
+    width: 300px;
+  }
+}
+.numberadd{
+  margin-top: 10.5vh;
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width:1200px) {
+  .numberadd{
+    justify-content: center;
+  }
+}
+@media screen and (max-width:600px) {
+  .numberadd{
+    display: block;
+  }
+}
 .leftnum{
+  padding-left: 18.5rem;
   text-align: center;
   font-family: 'Poppins',sans-serif;
+}
+@media screen and (max-width:1200px) {
+  .leftnum{
+    padding-left: 0rem;
+  }
+}
+.conticon{
+  padding-right: 18.5rem;
+}
+@media screen and (max-width:1200px) {
+  .conticon{
+    padding-left: 21rem;
+    padding-right: 0rem;
+  }
+}
+@media screen and (max-width:992px) {
+  .conticon{
+    padding-left: 12rem;
+  }
+}
+@media screen and (max-width:768px) {
+  .conticon{
+    padding-left: 5rem;
+  }
+}
+@media screen and (max-width:600px) {
+  .conticon{
+    text-align: center;
+    padding-left: 0rem;
+  }
 }
 .salessup{
   font-weight: 300;
@@ -1637,4 +1693,28 @@ text-align: center;
   font-weight:600 ;
   font-size: 40px;
   color: rgba(152, 0, 46, 1);
+}
+.contat{
+  font-family: 'Poppins',sans-serif;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 20px; ;
+  color: rgba(69, 69, 69, 1);
+}
+@media screen and (max-width:600px) {
+  .contat{
+     margin-top: 4vh;
+  }
+}
+.icons{
+  padding-top: 3.5vh;
+  display: flex;
+}
+@media screen and (max-width:600px) {
+  .icons{
+    justify-content: center;
+  }
+}
+.iciinst,.icimgpint,.icimgtik,.icimgyout{
+  padding-left: 2.5rem;
 }
