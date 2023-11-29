@@ -1585,3 +1585,56 @@ text-align: center;
   padding-left: 3.5rem;
   padding-right: 3.5rem;
 }
+.footplay{
+  margin-top: 10vh;
+   display: flex;
+   justify-content: center;
+}
+.inner{
+  position: relative;
+  max-width: 442px;
+  height: 235px;
+  background: linear-gradient(180deg, #98002E 22.4%, #7B0025 100%);
+
+}
+.discM{
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 4vh;
+  text-align: center;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 1);
+}
+.playpic{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.whitemark{
+  position: absolute;
+  bottom: 5px;
+  right: 23px;
+}
+.mikimg{
+  display: flex;
+  justify-content: center;
+  padding-right: 3rem;
+  padding-top: 9vh;
+}
+.leftnum{
+  text-align: center;
+  font-family: 'Poppins',sans-serif;
+}
+.salessup{
+  font-weight: 300;
+  font-size: 24px;
+  color: rgba(69, 69, 69, 1);
+}
+.ipadd{
+  font-weight:600 ;
+  font-size: 40px;
+  color: rgba(152, 0, 46, 1);
+}
