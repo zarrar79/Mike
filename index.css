@@ -1408,6 +1408,17 @@ text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+@media screen and (max-width:768px) {
+  .bisii{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width:450px) {
+    .bisii{
+      text-align: center;
+      grid-template-columns: 1fr;
+    } 
+}
 .by{
   font-family: 'Poppins',sans-serif;
   font-weight:600;
@@ -1427,5 +1438,19 @@ text-align: center;
   margin-top: 3.5vh;
 }
 .sellerl,.Investor,.Information{
-     margin-left: 2rem;
+     padding-left: 1.5rem;
+}
+@media screen and (max-width:768px) {
+  .Investor{
+    padding-left: 0rem;
+  }
+  .Investor,.Information{
+    padding-top: 6vh;
+  }
+}
+@media screen and (max-width:450px) {
+  .sellerl,.Investor,.Information{
+    padding-top: 7vh;
+    padding-left: 0rem;
+  }
 }
