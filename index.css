@@ -289,10 +289,11 @@ body {
     }
 }
 .getbtn {
-    
+    display: flex;
+    justify-content: center;
 }
 .get {
-  float: left;
+  text-align: center;
   margin-bottom: 5vh;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
