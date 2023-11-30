@@ -1723,7 +1723,11 @@ text-align: center;
   }
 }
 .iciinst,.icimgpint,.icimgtik,.icimgyout{
+  cursor: pointer;
   padding-left: 2.5rem;
+}
+.icifac{
+  cursor: pointer;
 }
 .las{
   padding-top: 9vh;
