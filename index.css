@@ -518,10 +518,10 @@ body {
     }
 }
 .pic2 {
-  padding-top: 4vh;
+  padding-top: 3.2vh;
 }
 .pic4 {
-  padding-top: 4vh;
+  padding-top: 3.2vh;
 }
 @media screen and (max-width:450px) {
     
@@ -639,6 +639,7 @@ body {
   }
 }
 .flexgrid2 {
+  margin-top: 4.2vh;
   padding-right: 2.1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -650,9 +651,13 @@ body {
 .flexgrid2{
   padding-left: 0rem;
 }
-.pic33,.pic44,.p04,.pic22{
+.pic33,.pic00{
+  padding-top: 0vh;
   padding-left: 0rem;
   margin: 0;
+}
+.pic22,.pic44{
+  padding-top: 3.5vh;
 }
 @media screen and (max-width: 1200px) {
   .flexgrid2 {
