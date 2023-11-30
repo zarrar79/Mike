@@ -613,6 +613,7 @@ body {
 @media screen and (max-width: 1200px) {
   .fflexgrid2 {
     flex-wrap: wrap;
+    justify-content: center;
     padding-left: 0rem;
   }
 }
