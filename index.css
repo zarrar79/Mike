@@ -34,7 +34,7 @@ body {
 }
 @media screen and (max-width: 450px) {
   .herosection {
-    background-size: contain;
+    /* background-size: contain; */
     height: auto;
   }
 }
