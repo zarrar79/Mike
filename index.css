@@ -446,7 +446,7 @@ body {
 }
 .fgridflex {
   margin-top: 2vh;
-  margin-left: 2.2rem;
+  margin-left: 1.3rem;
   display: flex;
   justify-content: space-around;
 }
@@ -483,8 +483,8 @@ body {
         display: block;
     }
 }
-.bigimg {
-  padding-right: 3rem;
+.bigimg{
+  padding-right: 0.3rem;
   margin-top: 12vh;
 }
 @media screen and (max-width: 1200px) {
@@ -511,9 +511,6 @@ body {
 .bigimg {
   padding-left: 0rem;
   position: relative;
-}
-.pic0,.pic2,.pic3,.pic4{
-  padding-left: 1rem;
 }
 @media screen and (max-width:450px) {
     .bimg img{
