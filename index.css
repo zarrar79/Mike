@@ -609,6 +609,7 @@ body {
 @media screen and (max-width: 1200px) {
   .fflexgrid2 {
     flex-wrap: wrap;
+    padding-left: 0rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -629,6 +630,11 @@ body {
   margin-top: 0vh;
   margin-right: 2rem;
   padding-right: 0rem;
+}
+@media screen and  (max-width:1200px){
+  .flexgrid .bigimg{
+        margin-right: 0rem;
+  }
 }
 .flexgrid2 {
   padding-right: 1rem;
