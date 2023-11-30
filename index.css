@@ -448,6 +448,7 @@ body {
 .fgridflex {
   margin-top: 2vh;
   margin-left: 1.3rem;
+  padding-right: 0.1rem;
   display: flex;
   justify-content: space-around;
 }
@@ -604,7 +605,7 @@ body {
     }
 }
 .fflexgrid2 {
-  padding-right: 0.3rem;
+  padding-right: 0.4rem;
   padding-left:2.3rem;
   display: flex;
   justify-content: space-between;
@@ -1281,8 +1282,8 @@ text-align: center;
   color:rgba(69, 69, 69, 1);
 }
 .footbgflx{
-  padding-left: 1rem;
-  max-width: 1257px;
+  padding-left: 0.8rem;
+  max-width: 1256px;
   margin: auto;
 }
 @media screen and (max-width:992px) {
