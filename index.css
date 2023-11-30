@@ -1273,7 +1273,8 @@ text-align: center;
   color:rgba(69, 69, 69, 1);
 }
 .footbgflx{
-  max-width: 1300px;
+  padding-left: 1rem;
+  max-width: 1257px;
   margin: auto;
 }
 @media screen and (max-width:992px) {
